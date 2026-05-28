@@ -11,7 +11,7 @@ Thanks for your interest in improving this repository.
 
 ## Content guidelines
 
-- Keep content practical and aligned to GH-600 preparation.
+- Keep content practical and aligned to GitHub Certified: Agentic AI Developer (GH-600) preparation.
 - Prefer clear, concise markdown with consistent section headings.
 - Update related docs or examples when needed.
 
