@@ -66,7 +66,7 @@ Save the configuration.
 
 ### 1. Create an Agent That Uses MCP With Restrictions
 
-**File**: `.github/copilot/agents/mcp-aware-implementation-agent.md`
+**File**: `.github/agents/mcp-aware-implementation-agent.md`
 
 ```yaml
 ---

@@ -22,7 +22,7 @@ This pattern appears repeatedly in the official course material.
 
 ### 1. Create the Planning Agent
 
-**File**: `.github/copilot/agents/implementation-planner.md`
+**File**: `.github/agents/implementation-planner.md`
 
 ```yaml
 ---

@@ -15,8 +15,7 @@
 
 ```
 .github/
-  copilot/
-    agents/          # Custom agent profiles go here
+  agents/            # Custom agent profiles go here
 ```
 
 4. Enable GitHub Copilot on the repository if not already enabled.

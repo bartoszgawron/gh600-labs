@@ -25,7 +25,7 @@ You want to compare two different approaches to the same task:
 
 In your practice repository, create the following files:
 
-**File**: `.github/copilot/agents/assistant-only.md`
+**File**: `.github/agents/assistant-only.md`
 
 ```yaml
 ---
@@ -43,7 +43,7 @@ Rules:
 - Always clearly state that the user must perform the actions manually.
 ```
 
-**File**: `.github/copilot/agents/proper-agent.md`
+**File**: `.github/agents/proper-agent.md`
 
 ```yaml
 ---
@@ -75,7 +75,7 @@ Be transparent about every step you take.
 ### 2. Commit the Files
 
 ```bash
-git add .github/copilot/agents/
+git add .github/agents/
 git commit -m "Add first two custom agents for comparison"
 git push
 ```

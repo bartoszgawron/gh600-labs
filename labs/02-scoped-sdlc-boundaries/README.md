@@ -23,7 +23,7 @@ This matches the teaching in the official "Designing Agent Architecture and SDLC
 
 ### 1. Create the Scoped Agent
 
-**File**: `.github/copilot/agents/implementation-only.md`
+**File**: `.github/agents/implementation-only.md`
 
 ```yaml
 ---
