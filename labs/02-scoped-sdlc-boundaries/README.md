@@ -52,12 +52,14 @@ If you are ever unsure whether a file is in scope, stop and ask for clarificatio
 
 ### 2. Set Up Some Scope-Test Files (Optional but Recommended)
 
-Create these folders in your practice repo so you can test boundaries:
+Create these folders in your practice repo so you can test boundaries. Ready-made examples are provided in the `scope-test-files/` directory at the repository root:
 
-- `src/`
-- `docs/`
-- `.github/workflows/` (with a dummy workflow)
-- `infra/` (with a dummy terraform or helm file)
+- `src/user-registration.ts`
+- `docs/README.md`
+- `.github/workflows/ci.yml`
+- `infra/main.tf`
+
+Copy the contents of `scope-test-files/` into your `gh600-practice` repository root.
 
 ### 3. Test the Boundaries
 
