@@ -1,6 +1,6 @@
 ---
 name: implementation-planner
-descriptions: Create detailed, reviewable implementation plans. Does not implement changes itself unless explicitly told to do so.
+description: Create detailed, reviewable implementation plans. Does not implement changes itself unless explicitly told to do so.
 tools: ["read", "search"]
 ---
 
