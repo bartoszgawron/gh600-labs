@@ -136,4 +136,24 @@ Be ready to recognize anti-patterns (direct pushes to main, no visible plan, no 
 
 ---
 
+## Official Knowledge Base
+
+This lab is based on the official Microsoft Learn learning path:
+
+**Developing in Agentic AI Systems Part 1 of 2**  
+https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1
+
+**Relevant Module**: Foundations of Agentic AI in GitHub
+
+**Key Concepts from the Official Material**:
+- AI coding agents transform software development by planning, acting, and improving within GitHub workflows.
+- The core agent lifecycle: **plan → act → evaluate**.
+- GitHub serves as the system of record and control plane for agentic work.
+- Applying the contributor model to agent-generated changes ensures traceability and accountability.
+- Common anti-patterns include bypassing governance, lacking visible plans, and direct pushes to the default branch.
+
+**GH-600 Exam Domain**: Domain 1 – Prepare agent architecture and SDLC processes
+
+---
+
 **Next Lab**: Lab 02 – Scoped SDLC Boundaries (recommended after Microsoft Learn Module 2)

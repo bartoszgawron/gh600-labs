@@ -110,4 +110,23 @@ The exam expects you to understand that **prompt instructions alone are not enou
 
 ---
 
+## Official Knowledge Base
+
+This lab is based on the official Microsoft Learn learning path:
+
+**Developing in Agentic AI Systems Part 1 of 2**  
+https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1
+
+**Relevant Module**: Designing Agent Architecture and SDLC Integration
+
+**Key Concepts from the Official Material**:
+- Agentic systems must use GitHub workflows to build software safely.
+- Defining clear execution boundaries for agents is essential (what files/directories they may touch).
+- Tool restrictions (`tools:` in agent profiles) combined with GitHub-native controls (branch protection, rulesets, CODEOWNERS) provide defense-in-depth.
+- Prompt instructions alone are insufficient; governance must be enforced at the platform level.
+
+**GH-600 Exam Domain**: Domain 1 – Prepare agent architecture and SDLC processes
+
+---
+
 **Next Recommended Lab**: Lab 03 – Structured Plans and Human Gates

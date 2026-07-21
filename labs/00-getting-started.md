@@ -47,6 +47,22 @@ After an agent runs:
 
 This log view is critical for both real work and the exam.
 
+## Official Knowledge Base
+
+This lab prepares you for the entire learning path:
+
+**Developing in Agentic AI Systems Part 1 of 2**  
+https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1
+
+**All three modules** in the path rely on the foundational setup described here:
+- Creating a practice repository with proper agent profiles in `.github/agents/`
+- Understanding how to trigger the Copilot cloud agent from Issues and PR comments
+- Inspecting detailed execution logs (especially "Start MCP Servers")
+
+**GH-600 Exam Domain**: All domains benefit from a solid understanding of the agent execution environment and GitHub as the control plane.
+
+---
+
 ## Next Step
 
 Start with **Lab 01 – Foundations: Agent vs Assistant**.
