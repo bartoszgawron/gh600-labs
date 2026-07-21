@@ -34,18 +34,19 @@ Go to your practice repository:
 
 **Settings → Copilot → Cloud agent → MCP configuration**
 
-Add the following example (start with the built-in GitHub MCP in read-only mode):
+Add the following example using the official Azure MCP server:
 
 ```json
 {
   "mcpServers": {
-    "github-mcp-readonly": {
-      "type": "http",
-      "url": "https://api.githubcopilot.com/mcp/readonly",
-      "tools": ["*"],
-      "headers": {
-        "X-MCP-Toolsets": "repos,issues,pull_requests"
-      }
+    "azure": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@azure/mcp@latest"],
+      "env": {
+        "AZURE_SUBSCRIPTION_ID": "${AZURE_SUBSCRIPTION_ID}"
+      },
+      "tools": ["*"]
     }
   }
 }
@@ -58,7 +59,7 @@ Save the configuration.
 1. Create an issue and assign it to Copilot.
 2. Once it creates a PR, go to the PR → "Copilot started work" timeline event → **View session**.
 3. Expand the **Start MCP Servers** step.
-4. Confirm that `github-mcp-readonly` appears and lists available tools.
+4. Confirm that `azure` appears and lists available tools.
 
 ---
 
@@ -138,6 +139,26 @@ Spend extra time on this lab.
 ## Common MCP Configuration Patterns (Reference)
 
 See the files in `examples/mcp-configs/` for more examples (Sentry, Azure, GitHub extended access, etc.).
+
+---
+
+## Official Knowledge Base
+
+This lab is based on the official Microsoft Learn learning path:
+
+**Developing in Agentic AI Systems Part 1 of 2**  
+https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1
+
+**Relevant Module**: Tooling, MCP, and Agent Execution Environments
+
+**Key Concepts from the Official Material**:
+- Agents use tools, MCP servers, and GitHub workflows to execute tasks safely.
+- Clear boundaries, security controls, and the principle of least privilege are essential when granting tools to agents.
+- MCP (Model Context Protocol) allows agents to connect to external services in a controlled way.
+- Repository-level vs per-agent MCP configuration provides different levels of governance.
+- Always verify MCP server startup and exposed tools in the Copilot session logs ("Start MCP Servers" step).
+
+**GH-600 Exam Domain**: Domain 2 – Tooling, MCP & Execution (highest-weighted domain)
 
 ---
 

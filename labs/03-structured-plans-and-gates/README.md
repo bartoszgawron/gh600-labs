@@ -100,4 +100,23 @@ This creates a clean two-agent workflow: Planner → Human Approval → Implemen
 
 ---
 
+## Official Knowledge Base
+
+This lab is based on the official Microsoft Learn learning path:
+
+**Developing in Agentic AI Systems Part 1 of 2**  
+https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1
+
+**Relevant Module**: Designing Agent Architecture and SDLC Integration
+
+**Key Concepts from the Official Material**:
+- Separating planning from execution is one of the most important patterns for reliable and governable agentic systems.
+- Human gates (approvals, labels, required reviews) are implemented using standard GitHub processes (PRs, branch protection, rulesets).
+- Requiring a visible, reviewable plan before implementation greatly improves auditability and reduces risk.
+- The "plan first" rule should be enforced by platform controls, not only by agent instructions.
+
+**GH-600 Exam Domain**: Domain 1 + Domain 6 (Evaluation, Governance & Operations)
+
+---
+
 **Next Lab**: Lab 04 – MCP and Tool Control (the highest-weighted topic)
