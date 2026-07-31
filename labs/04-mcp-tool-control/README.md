@@ -39,13 +39,15 @@ Add the following example using the official Azure MCP server:
 ```json
 {
   "mcpServers": {
-    "azure": {
-      "type": "stdio",
+    "Azure": {
+      "type": "local",
       "command": "npx",
-      "args": ["-y", "@azure/mcp@latest"],
-      "env": {
-        "AZURE_SUBSCRIPTION_ID": "${AZURE_SUBSCRIPTION_ID}"
-      },
+      "args": [
+        "-y",
+        "@azure/mcp@latest",
+        "server",
+        "start"
+      ],
       "tools": ["*"]
     }
   }
