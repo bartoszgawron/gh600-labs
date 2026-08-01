@@ -24,10 +24,12 @@ gh600-labs/
 │   ├── 01-foundations-agent-vs-assistant/
 │   ├── 02-scoped-sdlc-boundaries/
 │   ├── 03-structured-plans-and-gates/
-│   └── 04-mcp-tool-control/
+│   ├── 04-mcp-tool-control/
+│   └── 05-github-agentic-workflows/  # gh-aw markdown agents in Actions
 ├── examples/
 │   ├── custom-agents/                # Ready-to-use .md agent profiles
-│   └── mcp-configs/                  # JSON snippets for repository settings
+│   ├── mcp-configs/                  # JSON snippets for repository settings
+│   └── agentic-workflows/            # gh-aw markdown workflow starters
 └── notes/
     └── personal-reference.md
 ```
@@ -57,6 +59,7 @@ The official Microsoft Learn path is excellent for concepts, but the GH-600 exam
 - Custom agents (YAML frontmatter + Markdown)
 - MCP server configuration (repository-level + per-agent)
 - Tool filtering and least privilege
+- GitHub Agentic Workflows (gh-aw) in Actions + safe-outputs
 - Plan → Act → Evaluate patterns
 - GitHub-native governance (PRs, checks, rulesets, environments)
 
@@ -65,7 +68,7 @@ The official Microsoft Learn path is excellent for concepts, but the GH-600 exam
 ## Current Status
 
 - **Focus**: Part 1 of the learning path (Domains 1–3 + foundations)
-- Labs 01–04 are complete and tested against current GitHub behavior (2026)
+- Labs 01–05 are complete and tested against current GitHub behavior (2026)
 - Part 2 topics (Evaluation, Multi-agent, Guardrails) will be added when the second learning path is released
 
 ---
@@ -85,7 +88,7 @@ The official Microsoft Learn path is excellent for concepts, but the GH-600 exam
 - Official Study Guide: https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-600
 - Main Certification Page: https://learn.microsoft.com/en-us/credentials/certifications/agentic-ai-developer/
 - Microsoft Learn Path (Part 1): https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1
-
+- GitHub Agentic Workflows: https://github.github.com/gh-aw/introduction/overview/
 ---
 
 **Last updated**: 2026 (aligned with current GitHub Copilot custom agents + MCP behavior)

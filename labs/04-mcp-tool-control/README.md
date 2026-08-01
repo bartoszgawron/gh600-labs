@@ -164,4 +164,4 @@ https://learn.microsoft.com/en-us/training/paths/gh-developing-agentic-systems-1
 
 ---
 
-**After completing this lab**, you will have covered the majority of the highest-weighted domain in the current version of the exam.
+**After completing this lab**, continue with [Lab 05 – GitHub Agentic Workflows](../05-github-agentic-workflows/) to run AI agents inside GitHub Actions with safe-outputs.

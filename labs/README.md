@@ -11,6 +11,7 @@ These labs are designed to be done alongside (or immediately after) the official
 | 3     | [02-scoped-sdlc-boundaries](./02-scoped-sdlc-boundaries/) | Scoping agents to SDLC stages | Architecture & SDLC | Domain 1 |
 | 4     | [03-structured-plans-and-gates](./03-structured-plans-and-gates/) | Forcing visible plans + human gates | Architecture & SDLC | Domain 1 + 6 |
 | 5     | [04-mcp-tool-control](./04-mcp-tool-control/) | MCP configuration + least privilege (most important) | Tooling, MCP & Execution | **Domain 2** |
+| 6     | [05-github-agentic-workflows](./05-github-agentic-workflows/) | gh-aw: markdown agents in Actions + safe-outputs | Tooling + Governance | Domain 2 + 6 |
 
 ## How to Get Maximum Value
 
